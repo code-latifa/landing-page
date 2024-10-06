@@ -1,0 +1,318 @@
+ header{
+    display: flex;
+    background-color: rgb(18, 129, 46);
+    justify-content: space-between;
+    align-items: center;
+
+}
+header h1{
+    text-transform: capitalize;
+    margin: 15px;
+
+}
+nav ul {
+    display: flex;
+    list-style-type:none;
+    flex-direction: row;
+    gap: 15px;
+   
+}
+nav a {
+    text-decoration: none;
+    justify-content: center;
+    padding: 8px 12px;
+    text-transform: capitalize;
+    color: black;
+    margin: 15px;
+    font-size: x-large;
+}
+ #div1 {
+
+    background-image: url('https://static.vecteezy.com/ti/photos-gratuite/p1/26848879-marguerite-fleurs-sur-blanc-en-bois-arriere-plan-ete-camomille-plat-poser-la-saint-valentin-aux-femmes-les-meres-jour-anniversaire-ou-mariage-concept-haut-voir-copie-espace-genere-ai-gratuit-photo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+div h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+div p{
+    font-size: 2em;
+    font-weight: lighter;
+    padding:8px 12px ;
+    margin: 20px;
+}
+.ht h3{
+    margin-bottom: 20px;
+    padding-left: 15px;
+   /* align-items: center;
+    text-align: center;*/
+    font-size: 30px;
+    padding-left: 575px;
+    top: 15px;
+    display: block;
+    position: relative;
+    top: 60px;
+    
+
+}
+.ht img{
+    width: 500px;
+    height: 50vh;
+}
+.ht p{
+    
+    position:absolute;
+    top: 1090px;
+    left:33%;
+    
+
+}
+.ht a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px 70px;
+    background-color: rgb(226, 93, 138);
+    border-radius: 10px;
+    
+
+}
+.ht a:hover{
+    background-color: rgb(212, 25, 128);
+}
+.fati{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.price{
+    display: flex;
+    gap: 10px;
+}
+.before{
+    text-decoration: line-through;
+    color: rgb(134, 134, 130);
+}
+.after{
+    color: black;
+    font-size: 35px;
+}
+
+.add{
+    background-color: rgb(83, 49, 7);
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 30px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+.add:hover{
+    background-color: rgb(160, 14, 99);
+}
+.fati img{
+    width: 300px;
+    height: 300px;
+}
+.fati > div {
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 7px rgb(240, 223, 228);
+    margin: 10px;
+    padding: 10px;
+}
+.fati > div:hover{
+    background-color: bisque;
+}
+.fati h3{
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+ 
+
+
+}
+.div4 p{
+    justify-content: center;
+}
+.div8 p{
+    margin-bottom:-0.5px;
+}
+.div8 button{
+    margin-top: 0;
+  }
+
+.div7 button{
+    margin-top: 0;
+  }
+  
+.div7 p{
+margin-bottom: -0.5rem;
+}
+.div7 button{
+  margin-top: 0;
+}
+.lati{
+    position: relative;
+    text-align: center;
+}
+.lati img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+
+
+}
+.lati h1{
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   color: white;
+   font-size: 6em;
+   margin: 5px;
+   text-align: center;
+   
+}
+.gg{
+    display: flex;
+    padding: 1px;
+    margin: 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.review{
+    flex: 1 1 calc(33.33% -10px);
+    border-radius: 5px;
+    box-shadow: 0 4px 7px rgb(240, 223, 228);
+    background-color:white;
+    height: 100%;
+    margin-bottom: 3px;
+    gap: 7px;
+    width: 30%;
+    box-sizing: border-box;
+}
+.review p{
+    font-size: 25px;
+    
+
+}
+.review h5{
+ text-align: center;
+ font-size: 60px;
+ text-transform: capitalize;
+ margin: 0;
+}
+.star{
+    text-align: center;
+    gap: 3px;
+    font-size: xx-large;
+    margin: 3px 3px;
+    color: #e4486f;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(175, 24, 74);
+}
+.form{
+    padding: 60px;
+    width: 45%;
+    gap: 20px;
+}
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.form label{
+    display: block;
+    margin-bottom: 12px;
+}
+.form input{
+    display: block;
+    margin-bottom: 25px;
+    width: 60%;
+    box-shadow: 0 4px 8px blanchedalmond;
+    border-radius: 15px;
+    padding: 15px;
+    border-color: bisque;
+
+}
+.form input[type="text"]
+.form input[type="number"]:focus{
+    border-color: white;
+    
+   
+
+  
+
+}
+.form input[type="submit"]{
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(121, 7, 36);
+    font-weight: bold;
+    width: 180px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.form input[type="submit"]:hover{
+    background-color: rgb(148, 13, 92);
+}
+#note{
+    padding: 25px;
+}
+.note{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 25px;
+}
+footer{
+    background-color: #29040e;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 100%;
+}
+.toto i{
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+footer p{
+    color: white;
+    font-size: 25px;
+}
+
+
